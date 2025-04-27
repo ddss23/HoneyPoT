@@ -37,7 +37,7 @@
 > Leave all other settings as default, then click **Review + Create**.
 
 **Screenshot:**
-![Virtual Machine Specification](images/Virtual Machine Specification.png)
+![Virtual Machine Specification](images/VMspecs.png)
 
 ---
 
@@ -52,7 +52,7 @@ After deployment:
 > This ensures that T-Pot services are fully accessible.
 
 **Screenshot:**
-![Inbound Rule Configuration](images/Customise the inbound rule.png)
+![Inbound Rule Configuration](images/Customisetheinboundrule.png)
 
 ---
 
@@ -70,7 +70,7 @@ sudo apt install git
 ```
 
 **Screenshot:**
-![Connecting with PuTTY](images/connecting through PuTTY.png)
+![Connecting with PuTTY](images/connectingthroughPuTTY.png)
 
 ---
 
@@ -103,8 +103,8 @@ sudo reboot
 > After rebooting, access the T-Pot Dashboard at: `https://<your-public-ip>:64297`
 
 **Screenshot:**
-![T-Pot Installation Process](images/change to tpotce and run the script.png)
-![T-Pot Installation Process](images/installing TPOT.png)
+![T-Pot Installation Process](images/changetotpotceandrunthescript.png)
+![T-Pot Installation Process](images/installinTPOT.png)
 
 ---
 
@@ -113,7 +113,7 @@ sudo reboot
 The T-Pot honeypot platform provides a comprehensive dashboard integrating multiple tools for monitoring, analyzing, and visualizing attack data. It allows tracking live attacks, analyzing captured traffic, visualizing trends, and gathering intelligence on potential threats.
 
 **Screenshot:**
-![T-Pot Dashboard Overview](images/TPOT Dashboard.png)
+![T-Pot Dashboard Overview](images/TPOTDashboard.png)
 
 ---
 
@@ -123,32 +123,32 @@ The T-Pot honeypot platform provides a comprehensive dashboard integrating multi
 Displays live geographic locations and types of attacks targeting the honeypot.
 
 **Screenshot:**
-![Attack Map](images/Attack Map.png)
+![Attack Map](images/AttackMap.png)
 
 ---
 
 ## Elasticvue
-Elasticvue is an Elasticsearch client used to search, filter, and visualize collected attack data.
+ElasticVue is an Elasticsearch client used to search, filter, and visualize collected attack data.
 
 **Screenshot:**
-![Elasticvue Dashboard](images/Elastic view dashboard.png)
+![Elasticvue Dashboard](images/Elasticdashboard.png)
 
 **Screenshot:**
-![Elasticvue Custom Search](images/Custom search.png)
+![Elasticvue Custom Search](images/Customsearch.png)
 
 ---
 
 ## Kibana
-Kibana allows creating custom dashboards and reports based on honeypot data.
+Kibana allows custom dashboards and reports based on honeypot data to be created.
 
 **Screenshot:**
-![Kibana Dashboard Part 1](images/Comprehensive view 1.png)
+![Kibana Dashboard Part 1](images/1.png)
 
 **Screenshot:**
-![Kibana Dashboard Part 2](images/Comprehensive view 2.png)
+![Kibana Dashboard Part 2](images/2.png)
 
 **Screenshot:**
-![Top 10 Attackers Visualization](images/Information of top 10 attacker.png)
+![Top 10 Attackers Visualization](images/top10.png)
 
 ---
 
@@ -156,24 +156,25 @@ Kibana allows creating custom dashboards and reports based on honeypot data.
 SpiderFoot is an OSINT tool for gathering information about attackers (IP addresses, domains, emails).
 
 **Screenshot:**
-![SpiderFoot Scan on IP](images/Run scan.png)
+![SpiderFoot Scan on IP](images/Runscan.png)
 
 **Screenshot:**
-![SpiderFoot Attack Info](images/information gathered.png)
+![SpiderFoot Attack Info](images/informationgathered.png)
 
 **Screenshot:**
-![SpiderFoot Attacker Location](images/locationof attacker.png)
+![SpiderFoot Attacker Location](images/locationofattacker.png)
 
 ---
 
 ## CyberChef
 CyberChef is a web-based tool for analyzing and decoding captured data, integrated closely into T-Pot.
 
+
 ---
 
 # Conclusion
 
-By deploying T-Pot on Azure and analyzing the captured data through its integrated dashboard, valuable insights into real-world attack patterns, sources, and techniques can be obtained. Honeypots like T-Pot are essential tools for cybersecurity research, education, and incident response.
+Deploying T-Pot on Azure and analyzing the captured data through its integrated dashboard can provide valuable insights into real-world attack patterns, sources, and techniques. Honeypots like T-Pot are essential tools for cybersecurity research, education, and incident response.
 
 ---
 
