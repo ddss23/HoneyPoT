@@ -178,4 +178,3 @@ Deploying T-Pot on Azure and analyzing the captured data through its integrated 
 
 ---
 
-> **Note:** Replace all `path_to_image` with your actual image file paths once you upload them to GitHub.
